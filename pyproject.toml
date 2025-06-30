@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bilderkombi"
+version = "1.0.0"
+description = "Ein Tool zum Erstellen von PDF-Dokumenten aus Bildern mit Rahmen und Kommentaren"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "WTFPL"}
+authors = [
+    {name = "Jan Vanvinkenroye", email = "jan@vanvinkenroye.de"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Natural Language :: German",
+]
+dependencies = [
+    "Pillow>=11.2.1",
+    "reportlab>=4.4.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/bilderkombi"
+Issues = "https://github.com/yourusername/bilderkombi/issues"
+
+[project.scripts]
+bilderkombi = "bilderkombi:main"
+
+[tool.hatch.build]
+include = [
+    "bilderkombi.py",
+    "README.md",
+    "requirements.txt",
+]
