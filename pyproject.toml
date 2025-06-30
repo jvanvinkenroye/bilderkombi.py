@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/bilderkombi"
+Homepage = ":wq"
 Issues = "https://github.com/yourusername/bilderkombi/issues"
 
 [project.scripts]

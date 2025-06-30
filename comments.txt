@@ -1,4 +1,4 @@
-1: Dies ist Kommentar 1
-1: Noch eine Zeile für 1
-2: Kommentar für Bild 2
-3: Nur eine Zeile für 3
+1: Kommentar
+2: Kommentar
+2: Noch ein Kommentar zu 2
+3: Wieder Kommenta1: Kommentar
