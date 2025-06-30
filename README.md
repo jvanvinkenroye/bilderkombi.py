@@ -4,13 +4,13 @@ Ein Python-Tool zum Erstellen von PDF-Dokumenten aus Bildern mit farbigen Rahmen
 
 ## Features
 
-- 📸 Kombiniert mehrere Bilder zu einem PDF-Dokument
-- 🖼️ Fügt farbige Rahmen zu Bildern hinzu (Standard: rot, 10px)
-- 📝 Unterstützt mehrzeilige Kommentare für jedes Bild
-- 📄 Wählbare Seitenausrichtung (Hochformat/Querformat)
-- 🏷️ Anpassbarer PDF-Titel
-- 🕐 Automatischer Zeitstempel auf der Titelseite
-- 📋 Generiert Beispiel-Kommentardateien
+- Kombiniert mehrere Bilder zu einem PDF-Dokument
+- Fügt farbige Rahmen zu Bildern hinzu (Standard: rot, 10px)
+- Unterstützt mehrzeilige Kommentare für jedes Bild
+- Wählbare Seitenausrichtung (Hochformat/Querformat)
+- Anpassbarer PDF-Titel
+- Automatischer Zeitstempel auf der Titelseite
+- Generiert Beispiel-Kommentardateien
 
 ## Installation
 
@@ -166,9 +166,9 @@ python bilderkombi.py -i test1.jpg test2.jpg -o test.pdf
 
 WTFPL - Do What The F*ck You Want To Public License
 
-## Autor
+## "Autor"
 
-[Ihr Name]
+Jan Vanvinkenroye, jan@vanvinkenroye.de
 
 ## Beiträge
 
